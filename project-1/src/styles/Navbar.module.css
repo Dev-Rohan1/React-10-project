@@ -1,0 +1,51 @@
+header {
+  padding: 30px 0px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBar .logo {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.navBar .logo a {
+  color: blueviolet;
+}
+
+.navBar .menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navBar .menu li a {
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navBar .menu li a:hover {
+  color: blueviolet;
+}
+
+.navBar .responsive {
+  cursor: pointer;
+  font-size: 25px;
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .navBar .menu {
+    display: none;
+  }
+
+  .navBar .responsive {
+    display: block;
+  }
+}

@@ -1,5 +1,14 @@
+import Hero from "./components/Hero";
+import Layout from "./components/Layout";
+import Nabvar from "./components/nabvar";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <Layout>
+      <Nabvar />
+      <Hero />
+    </Layout>
+  );
 };
 
 export default App;

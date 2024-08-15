@@ -9,3 +9,18 @@
 body {
   font-family: "Outfit", sans-serif;
 }
+
+section {
+  padding: 50px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  padding: 0px 30px;
+}
