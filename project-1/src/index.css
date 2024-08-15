@@ -1,12 +1,11 @@
-fieldset {
-  width: 200px;
-  height: 45px;
-  border: 1px solid rebeccapurple;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-fieldset input {
-  width: 100%;
-  height: 100%;
-  outline: 0;
-  /* border: 0; */
+body {
+  font-family: "Outfit", sans-serif;
 }

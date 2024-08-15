@@ -1,12 +1,5 @@
 const App = () => {
-  return (
-    <div>
-      <fieldset>
-        <legend>name</legend>
-        <input type="text" />
-      </fieldset>
-    </div>
-  );
+  return <div>App</div>;
 };
 
 export default App;
