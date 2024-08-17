@@ -6,4 +6,5 @@
 
 HTML, CSS, Tailwind Css ,Javascript, React...
 
-[Project 1 live link](https://contact-us-in-react.netlify.app/)
+[Project 1 live link](https://contact-us-in-react.netlify.app/) <br>
+[Project 2 live link](https://dice-game-in-react-js.netlify.app/)

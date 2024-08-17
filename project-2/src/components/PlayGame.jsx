@@ -1,12 +1,11 @@
 import { styled } from "styled-components";
-import dicesImage from "../assets/images/dices.png";
 
 const PlayGame = ({ toggleGamePlay }) => {
   return (
     <Section>
       <DiceContainer>
         <DiceWrapper>
-          <Image src={dicesImage} alt="image"></Image>
+          <Image src="../../public/images/dices.png" alt="image"></Image>
           <DiceContent>
             <H1>DICE GAME</H1>
             <Button onClick={toggleGamePlay}>Play Now</Button>
