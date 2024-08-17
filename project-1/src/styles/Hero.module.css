@@ -11,8 +11,96 @@
   word-spacing: 2px;
 }
 
-.heroBtn {
+.wrapper {
   display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  gap: 60px;
+}
+
+.wrapper .col {
+  flex-basis: 50%;
+}
+
+.wrapper img {
+  width: 500px;
+}
+
+.col .heroBtn {
+  display: flex;
+  align-items: center;
   gap: 20px;
-  margin-top: 30px;
+}
+
+.col button,
+form input,
+textarea {
+  width: 100%;
+  height: 45px;
+  background-color: black;
+  color: white;
+  border: 0;
+  outline: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.col button svg {
+  font-size: 20px;
+}
+
+.col .outlineBtn,
+form input,
+textarea {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  margin-top: 20px;
+}
+
+/* form {
+  margin-top: 40px;
+} */
+
+form input::placeholder,
+textarea::placeholder {
+  color: black !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+form input,
+textarea {
+  padding: 0px 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+form textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .col .heroBtn {
+    flex-direction: column;
+  }
 }
