@@ -12,7 +12,7 @@
 
 ## how to use this project
 
-[clone repository github link ](https://linktodocumentation)
+[clone repository github link ](https://github.com/Dev-Rohan1/React-10-project.git)
 
 
 ## Installation
