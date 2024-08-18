@@ -20,7 +20,7 @@
 Install my-project with npm
 
 ```bash
-  cd project-2
+  cd project-1
   npm install 
   npm run dev
 ```
