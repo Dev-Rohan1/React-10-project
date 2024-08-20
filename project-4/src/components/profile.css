@@ -1,0 +1,125 @@
+.profile {
+  width: 370px;
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.profile .profile-bg {
+  background-color: #4070f4;
+  width: 100%;
+  height: 150px;
+}
+
+.profile .profile-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile .profile-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid #4070f4;
+  border-radius: 100%;
+  margin-top: -130px;
+  background-color: #fff;
+}
+
+.profile-card .profile-content {
+  margin-top: 5px;
+}
+
+.profile-card .profile-content h2 {
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+
+.profile-card .profile-content p {
+  font-size: 17px;
+}
+
+.profile-card .profile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.profile-card .profile-icon svg {
+  font-size: 30px;
+}
+
+.profile-card .profile-icon svg:first-child {
+  color: #4267b2;
+}
+
+.profile-card .profile-icon svg:nth-child(2) {
+  color: #1da1f2;
+}
+
+.profile-card .profile-icon svg:nth-child(3) {
+  color: #e1306c;
+}
+
+.profile-card .profile-icon svg:last-child {
+  color: #ff0000;
+}
+
+.profile-card .profile-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.profile-card .profile-btn button {
+  background-color: #4070f4;
+  color: #fff;
+  font-size: 17px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.profile-card .profile-btn button:hover {
+  background-color: #1da1f2;
+}
+
+.profile-card .follower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.profile-card .follower-btn {
+  display: flex;
+  align-items: center;
+}
+
+.profile-card .follower-btn svg {
+  font-size: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.profile-card .follower-btn span {
+  margin-right: 10px;
+}
+
+.profile-card .follower-btn p {
+  width: 2px;
+  height: 15px;
+  background-color: #cbb2b29c;
+  display: block;
+  border-radius: 30px;
+}
