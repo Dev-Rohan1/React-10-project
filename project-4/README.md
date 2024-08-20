@@ -1,8 +1,25 @@
-# React + Vite
+# simple profile card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Logo](https://github.com/Dev-Rohan1/banner/blob/main/Screenshot%202024-08-20%20130557.png?raw=true)
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Project-4 live link](https://profile-card-in-react-js.netlify.app/)
+
+## how to use this project
+
+[clone repository github link ](https://github.com/Dev-Rohan1/React-10-project.git)
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  cd project-4
+  npm install
+  npm run dev
+```
+
+## 🛠 used
+
+React js...
