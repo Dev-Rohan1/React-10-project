@@ -1,6 +1,6 @@
 # simple random quote generator
 
-![Logo](https://github.com/Dev-Rohan1/banner/blob/main/Screenshot%202024-08-21%20112526.png?raw=true)
+![Logo](https://github.com/Dev-Rohan1/banner/blob/main/Screenshot%202024-08-21%20113449.png?raw=true)
 
 ## Demo
 
